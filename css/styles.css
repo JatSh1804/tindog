@@ -160,4 +160,7 @@ a{
     position: relative;
     top: 680px;
   }
+  .content_container{
+    text-align:center;
+  }
 }
