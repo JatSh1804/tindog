@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>tindog</title>
+   <link rel="shortcut icon" href="images\favicon.png">
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap and stylesheet -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+
+  <!--@Font awesome -->
+  <script src="https://kit.fontawesome.com/51d7177b17.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <section class="title">
+
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="container-fluid sticky-top">
+        <a class="navbar-brand" href="#">
+          <i class="fa-solid fa-paw"></i> tindog
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <!-- ms-auto for alligning list -->
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle bg" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Docs
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#pros">Pros</a></li>
+                <li><a class="dropdown-item" href="#partners">Partners</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#subscription">Subscription</a></li>
+              </ul>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+
+    <!-- Title -->
+    <div class="container-fluid content_container">
+      <div class="row" style="margin-bottom:16%">
+
+        <div class="col col-lg-6">
+          <h1>Meet new and interesting dogs nearby.</h1>
+          <button type="button" class="btn btn-dark btn-lg download-btn1"><i class="fa-brands fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg download-btn1"><i class="fa-brands fa-google-play"></i> Download</button>
+        </div>
+        <div class="col col-lg-6">
+          <img src="images/iphone6.png" class="iphone_img" alt="iphone-mockup">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="features" id="pros">
+
+    <div class="row">
+      <div class="col_feat col-lg-4">
+        <i class="icon fa-solid fa-circle-check fa-3x"></i>
+        <h3>Easy to use.</h3>
+        <p>So easy to use, even your dog could do it.</p>
+      </div>
+      <div class="col_feat col-lg-4">
+        <i class="icon fa-solid fa-bullseye fa-3x"></i>
+        <h3>Elite Clientele</h3>
+        <p>We have all the dogs, the greatest dogs.</p>
+      </div>
+      <div class="col_feat col-lg-4">
+        <i class="icon fa-solid fa-heart fa-3x"></i>
+        <h3>Guaranteed to work.</h3>
+        <p>Find the love of your dog's life or your money back.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+  <section class="testimonials" id="partners">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2 style="padding:3% 14% 1% 14%;">I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+          <img class="testimonial_img" src="images\dog-img.jpg" alt="dog-profile">
+          <em>Pebbles, New York</em>
+        </div>
+        <div class="carousel-item">
+          <h2 style="padding:3% 14% 1% 14%;">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+          <img class="testimonial_img" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Beverly, Illinois</em>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    </div>
+
+
+
+
+
+    <!-- <> -->
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section class="press">
+    <img class="press_icon" src="images\TechCrunch.png" alt="tc-logo">
+    <img class="press_icon" src="images/tnw.png" alt="tnw-logo">
+    <img class="press_icon" src="images/bizinsider.png" alt="biz-insclasser-logo">
+    <img class="press_icon" src="images/mashable.png" alt="mashable-logo">
+
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section class="pricing" id="subscription">
+   <div class="row">
+
+    <h3>A Plan for Every Dog's Needs</h3>
+    <p>Simple and affordable price plans for your and your dog.</p>
+
+    <div class="price_div col-lg-3  border border-dark rounded-2" >
+      <h3>Chihuahua</h3>
+      <h3>Free</h3>
+      <p>5 Matches Per Day</p>
+      <p>10 Messages Per Day</p>
+      <p style="padding-bottom:2.5rem;">Unlimited App Usage</p>
+      <button type="button"class="btn btn-outline-success" style="margin-bottom:2%;" >Sign Up</button>
+    </div>
+    <div class="price_div col-lg-3  border border-dark rounded-2">
+      <h3>Labrador</h3>
+      <h3>$49 / mo</h3>
+      <p>Unlimited Matches</p>
+      <p>Unlimited Messages</p>
+      <p style="padding-bottom:2.5rem;">Unlimited App Usage</p>
+      <button type="button" class="btn btn-outline-success"style="margin-bottom:2%;">Sign Up</button>
+    </div>
+
+    <div class="price_div col-lg-3  border border-dark rounded-2"style="padding-bottom:10px;">
+      <h3>Mastiff</h3>
+      <h3>$99 / mo</h3>
+      <p>Pirority Listing</p>
+      <p>Unlimited Matches</p>
+      <p>Unlimited Messages</p>
+      <p>Unlimited App Usage</p>
+      <button type="button" class="btn btn-outline-success">Sign Up</button>
+    </div>
+   </div>
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section class="cta" id='contact'>
+
+    <h3 class="h3_cta">Find the True Love of Your Dog's Life Today.</h3>
+    <button type="button" class="btn btn-dark btn-lg download-btn"><i class="fa-brands fa-apple"></i> Download</button>
+    <button type="button" class="btn btn-outline-light btn-lg download-btn"><i class="fa-brands fa-google-play"></i> Download</button>
+
+
+
+  </section>
+<!-- <div class="row social">
+  <div class="col-sm-4 insta">
+    <i class="fa-brands fa-instagram fa-2x"></i>
+  </div>
+<div class="col-sm-4 twitter">
+  <i class="fa-brands fa-twitter fa-2x"></i>
+</div>
+  <div class="col-sm-4 fa-2x gmail">
+    <i class="fa-solid fa-envelope"></i>
+  </div>
+
+</div> -->
+ <div class="social">
+   <a href="CONTACT_ME.html"><i class="fa fa-solid fa-envelope fa-2x gmail" href="CONTACT_ME.html"></i></a>
+   <a href="https://twitter.com/Jatin_1804"target="_blank"<i class="fa fa-brands fa-twitter fa-2x twitter"></i></a>
+   <a href="https://www.instagram.com/m_mjatin/"target="_blank"<i class="fa fa-brands fa-instagram fa-2x insta"></i></a>
+ </div>
+
+
+  <!-- Footer -->
+
+  <footer class="footer">
+
+    <p>© Copyright TinDog</p>
+
+  </footer>
+
+
+</body>
+
+</html>
